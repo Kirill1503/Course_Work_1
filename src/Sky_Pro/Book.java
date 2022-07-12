@@ -2,16 +2,16 @@ package Sky_Pro;
 
 public class Book {
     public Employee[] employee = {
-            new Employee(1, "Ivan", "Ivanov", "Ivanovich", 88000),
-            new Employee(1, "Alexandr", "Alexandrov", "Alexandrovich", 75000),
-            new Employee(2, "Petr", "Petrov","Petrovich", 70000),
-            new Employee(2, "Nikita", "Nikitin", "Nikityevich", 97000),
-            new Employee(3, "Alexey", "Alexeev", "Alexeevich", 83000),
-            new Employee(3, "Semen", "Semenov", "Semenovich", 40000),
-            new Employee(4, "Roman", "Romanov", "Romanovich", 71000),
-            new Employee(4, "Kirill", "Kirillov", "Kirillovich", 99000),
-            new Employee(5, "Maxim", "Maximov", "Maximovich", 40000),
-            new Employee(5, "Ignat", "Ignatov", "Ignatovich", 76000),
+            new Employee(1, "Ivan", "Ivanov", "Ivanovich", 88000.03),
+            new Employee(1, "Alexandr", "Alexandrov", "Alexandrovich", 75000.75),
+            new Employee(2, "Petr", "Petrov","Petrovich", 70000.81),
+            new Employee(2, "Nikita", "Nikitin", "Nikityevich", 97000.90),
+            new Employee(3, "Alexey", "Alexeev", "Alexeevich", 83000.77),
+            new Employee(3, "Semen", "Semenov", "Semenovich", 40000.33),
+            new Employee(4, "Roman", "Romanov", "Romanovich", 71000.98),
+            new Employee(4, "Kirill", "Kirillov", "Kirillovich", 99000.73),
+            new Employee(5, "Maxim", "Maximov", "Maximovich", 40000.64),
+            new Employee(5, "Ignat", "Ignatov", "Ignatovich", 76000.01),
     };
     int size;
     public void add(int department, String name, String lastName, String middleName, int salary) {
@@ -54,8 +54,8 @@ public class Book {
         }
     }
 
-    public int allSalary() {
-        int sum = 0;
+    public double allSalary() {
+        double sum = 0;
         for (Employee employee :
                 employee) {
             sum += employee.getSalary();
