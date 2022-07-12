@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4619480-9c37-4fc1-90d6-086ec614c001" name="Changes" comment="" />
+    <list default="true" id="f4619480-9c37-4fc1-90d6-086ec614c001" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +45,10 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   },
   "keyToStringList": {
     "GitStage.ChangesTree.GroupingKeys": [
@@ -54,8 +59,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="Sky_Pro.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sky_Pro.Main" />
       <module name="Course_Work_1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -63,7 +68,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Sky_Pro.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -75,7 +80,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655916700260</updated>
-      <workItem from="1655916701779" duration="26649000" />
+      <workItem from="1655916701779" duration="27321000" />
+      <workItem from="1657225916482" duration="25492000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1655916815935</created>
@@ -84,7 +90,28 @@
       <option name="project" value="LOCAL" />
       <updated>1655916815935</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Course_Work_1">
+      <created>1656871716449</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656871716449</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Course_Work_1.1">
+      <created>1657573186102</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657573186102</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Course_Work_1.2">
+      <created>1657575548090</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657575548090</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +130,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Course_Work_1" />
+    <MESSAGE value="Course_Work_1.1" />
+    <MESSAGE value="Course_Work_1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Course_Work_1.2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
